@@ -1,0 +1,8 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 2cm;
+    display: flex;
+    align-items: center;
+}
