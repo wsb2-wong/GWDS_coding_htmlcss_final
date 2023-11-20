@@ -49,7 +49,7 @@ h1 {
 .section-one {
  margin-top: 110px;
  height: 300px;
- background-image: url("6C132992-3BDB-4B82-BB10-6E2DA79AAF09.jpeg");
+ background-image: url("background1.jpeg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -107,7 +107,7 @@ p {
  display: flex;
  justify-content: center;
  align-items: center;
- background-image: url("101470CA-82D6-46E2-94D3-6B79FBC10B15_1_105_c.jpeg");
+ background-image: url("background2.jpeg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
