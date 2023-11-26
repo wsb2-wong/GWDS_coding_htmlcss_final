@@ -1,0 +1,184 @@
+.section-five {
+    background-color: #FFC2C3;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .one {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .one img {
+    width: 40%;
+    height: auto;
+  }
+  
+  .section-five .content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .section-five .content p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  
+  .section-six {
+    background-color: #FFC2C3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .two {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .two img {
+    width: 40%;
+    height: auto;
+  }
+  
+  .section-six .content2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-six .content2 p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  
+  .section-seven {
+    background-color: #FFC2C3;
+    display: flex;
+    justify-content: center;
+  }
+  /*for myself understanding ,no need repeat one flexbox*/
+  
+  .section-seven .content3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .section-seven .content3 p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  
+  .section-eight {
+    background-color: #FFC2C3;
+    display: flex;
+    justify-content: center;
+  }
+  /*for myself understanding, no need repeat two flexbox*/
+  
+  .section-eight .content4 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-eight .content4 p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  
+  .section-nine {
+    background-color: #FFC2C3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-nine .content5 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-nine .content5 p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  
+  .section-ten {
+    background-color: #FFC2C3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-ten .content6 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-ten .content6 p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  
+  .section-eleven {
+    background-color: #FFC2C3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-eleven .content7 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-eleven .content7 p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  
+  .section-twelve {
+    background-color: #FFC2C3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-twelve .content8 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-twelve .content8 p {
+    color: black;
+    font-size: medium;
+    line-height: 1.5;
+  }
+  

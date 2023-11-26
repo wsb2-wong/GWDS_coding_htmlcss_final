@@ -1,0 +1,34 @@
+
+h3{
+    font-size: xx-large;
+    letter-spacing: 1cm;
+    color: rgba(0, 0, 0, 0.615);
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  body{
+    background-color: #fe7773;
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 200px 200px;
+  }
+  
+body p{
+    font-style: italic;
+    font-size: larger;
+    color: #0E0301;
+    text-align: center;
+    line-height: 1.58;
+    margin-top: 25px;
+    padding: 0 240px;
+    border: 1px dashed black;
+  }
+
+  body img{
+    display: flex;
+    text-align: center;
+    width: 12cm;
+  }

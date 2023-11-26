@@ -104,9 +104,12 @@ p {
 .section-three {
  background-color:#fe7773;
  height: 230px;
+ text-align: center;
  display: flex;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
+
  background-image: url("background2.jpeg");
  background-repeat: no-repeat;
  background-size: cover;
@@ -114,7 +117,14 @@ p {
  background-attachment: fixed;
 }
 
+.section-three figcaption {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: oblique;
+ font-weight: 400;
+}
+
 .section-three .audio {
+ margin-top: 10px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -419,14 +429,19 @@ h3{
   height: 600px;
 }
 
-.box1{
-  flex: 1 1 auto;
+.container {
+  display: flex;
+  height: 100%; 
+}
+
+.box1 {
+  flex: 1;
   background-color: #fe7773;
   height: 1000px;
 }
 
-.box2{
-  flex: 1 1 auto;
+.box2 {
+  flex: 1;
   background-color: #FFC2C3;
   height: 1000px;
 }
@@ -492,10 +507,6 @@ h3{
   margin-bottom: 10px;
 }
 
-.section-sixteen instagram{
-  color: #fff;
-  text-decoration: none;
-}
 
 .section-sixteen input,
 .section-sixteen button {
