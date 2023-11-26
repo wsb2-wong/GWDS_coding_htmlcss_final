@@ -422,13 +422,13 @@ h3{
 .box1{
   flex: 1 1 auto;
   background-color: #fe7773;
-  height: 700px;
+  height: 1000px;
 }
 
 .box2{
   flex: 1 1 auto;
   background-color: #FFC2C3;
-  height: 700px;
+  height: 1000px;
 }
 
 .section-sixteen {
@@ -490,6 +490,11 @@ h3{
   font-size: small;
   text-shadow: 3px 3px 3px rgba(26, 19, 19, 0.5);
   margin-bottom: 10px;
+}
+
+.section-sixteen instagram{
+  color: #fff;
+  text-decoration: none;
 }
 
 .section-sixteen input,
