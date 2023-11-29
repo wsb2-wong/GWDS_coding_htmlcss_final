@@ -480,8 +480,7 @@ h3{
 }
 
 .section-sixteen {
-  flex: 1;
-  position: relative;
+  display: block;
 }
 
 .section-sixteen .image-section {
@@ -527,7 +526,7 @@ h3{
 }
 
 .section-sixteen .reference-container ul li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .section-sixteen .reference-container ul li a {
