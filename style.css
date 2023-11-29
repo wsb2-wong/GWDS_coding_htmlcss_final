@@ -81,7 +81,6 @@ p {
 }
 
 .section-two {
- margin-top: 25px;
  background-color: #fe7773;
  height: 390px;
  display: flex;
@@ -90,12 +89,15 @@ p {
  flex-wrap: wrap;
 }
 
-.section-two .img {
- margin-bottom: 8px;
+.section-two .img:hover {
+  transform: scale(1.05); /* 调整放大倍数 */
+  transition: transform 0.3s ease; /* 添加过渡效果 */
 }
+
 
 .section-two img {
  margin: 0 10px;
+ margin-bottom: 8px;
  width: 250px;
  border-radius: 10px;
  box-shadow: 3px 5px 5px rgba(186, 6, 6, 0.754);
@@ -513,11 +515,16 @@ h3{
   margin-bottom: 7px;
 }
 
+
 .section-sixteen .reference-container {
   text-decoration: none;
   font-size: large;
   text-shadow: 3px 3px 3px rgba(26, 19, 19, 0.5);
   margin-bottom: 40px;
+}
+
+.section-sixteen .reference-container ul li a:hover {
+  text-decoration: underline;
 }
 
 .section-sixteen .reference-container ul {
