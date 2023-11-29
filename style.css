@@ -383,7 +383,7 @@ h3{
 
 .section-fourteen {
   height: 700px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   padding: 0 200px 200px;
   background-color: #0E0301;
@@ -395,9 +395,9 @@ h3{
 }
 
 .image-container {
-  margin-top: 200px;
-  max-width: 100%;
-  max-height: 90%;
+  margin-top: 190px;
+  max-width: 110%;
+  max-height: 110%;
   border: 1px solid white;
 }
 
@@ -408,7 +408,7 @@ h3{
 }
 
 .text-container {
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -424,34 +424,64 @@ h3{
   border-radius: 10px;
 }
 
-.section-fifthteen {
-  display: flex;
-  height: 600px;
-}
-
 .container {
   display: flex;
-  justify-content: center;
-  height: 100%; 
+  flex-direction: column;
+  height: 140vh;
+}
+
+.section-fifthteen {
+  display: flex;
+  flex: 1;
 }
 
 .box1 {
   flex: 1;
   background-color: #fe7773;
-  height: 1000px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center; 
 }
 
-.box1 img{
-  width: 50%;
+.poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  width: 80%;
+}
+
+.poster-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.poster-reflection-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-reflection-container p{
+  font-size: large;
+  padding: 0 30px 30px 30px;
+  line-height: 1.8;
+  color: #0E0301;
 }
 
 .box2 {
   flex: 1;
   background-color: #FFC2C3;
-  height: 1000px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center; 
 }
 
 .section-sixteen {
+  flex: 1;
   position: relative;
 }
 
@@ -511,7 +541,6 @@ h3{
   text-shadow: 3px 3px 3px rgba(26, 19, 19, 0.5);
   margin-bottom: 10px;
 }
-
 
 .section-sixteen input,
 .section-sixteen button {
