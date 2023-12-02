@@ -8,11 +8,17 @@ body {
 }
 
 .section-five {
-    margin-top: 10px;
+  margin-top: 10px;
   background-color: #000000;
   display: flex;
   justify-content: center;
 }
+
+.one img:hover,
+.two img:hover {
+    transform: scale(1.008);
+}
+
 
 .one {
   display: flex;
@@ -24,6 +30,11 @@ body {
 .one img {
   width: 40%;
   height: auto;
+  transition: filter 0.3s;
+}
+
+.one img:hover {
+  filter: brightness(1.19);
 }
 
 .section-five .content {
@@ -54,7 +65,13 @@ body {
 .two img {
   width: 40%;
   height: auto;
+  transition: filter 0.3s;
 }
+
+.two img:hover {
+  filter: brightness(1.19);
+}
+
 
 .section-six .content2 {
   width: 50%;

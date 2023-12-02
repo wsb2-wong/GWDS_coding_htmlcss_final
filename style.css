@@ -184,6 +184,11 @@ h3{
 .one img {
   width: 40%;
   height: auto;
+  transition: filter 0.3s;
+}
+
+.one img:hover {
+  filter: brightness(1.2);
 }
 
 .section-five .content {
@@ -214,6 +219,11 @@ h3{
 .two img {
   width: 40%;
   height: auto;
+  transition: filter 0.3s;
+}
+
+.two img:hover {
+  filter: brightness(1.2);
 }
 
 .section-six .content2 {
