@@ -42,6 +42,11 @@ h1 {
  text-decoration: none;
 }
 
+.container-navigation :hover{
+  transform: scale(1.05);
+}
+
+
 .push {
  margin-left: auto;
 }
@@ -99,6 +104,7 @@ p {
  margin: 0 10px;
  margin-bottom: 8px;
  width: 250px;
+ border: 1px solid #ffffff;
  border-radius: 10px;
  box-shadow: 3px 5px 5px rgba(186, 6, 6, 0.754);
 }
@@ -464,8 +470,10 @@ h3{
 }
 
 .poster-container img {
-  max-width: 100%;
-  max-height: 100%;
+  margin-top: 20px;
+  max-width: 92%;
+  max-height: 95%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .poster-reflection-container{
@@ -585,4 +593,25 @@ h3{
 .section-sixteen input:focus {
   outline: none;
   border-color: #ff4400;
+}
+
+.email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.email {
+  font-size: 25px;
+  border:1px solid  #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding:0 8px 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.email:hover {
+  box-shadow: 0 2px #FFC2C3;
 }

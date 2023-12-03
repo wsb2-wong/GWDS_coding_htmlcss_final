@@ -1,6 +1,6 @@
 body {
     background-color: #000000;
-    height: 4790px;
+    height: 4830px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,4 +206,21 @@ body {
     color: #ffffff ;
   font-size: medium;
   line-height: 1.5;
+}
+
+.back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: rgb(255, 255, 255);
+}
+
+.back-button:hover {
+    background-color: rgb(246, 32, 32);
+    box-shadow: 0 2px #FFC2C3;
+    transform: translateY(2px);
 }
