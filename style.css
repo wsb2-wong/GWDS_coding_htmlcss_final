@@ -595,11 +595,12 @@ h3{
   border-color: #ff4400;
 }
 
-.email-container {
+
+.contact{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
+  flex-direction: row;
 }
 
 .email {
@@ -608,10 +609,33 @@ h3{
   border-radius: 10px;
   text-decoration: none;
   padding:0 8px 2px;
-  width: 30px;
+  width: 28px;
   height: 30px;
 }
 
 .email:hover {
+  box-shadow: 0 2px #FFC2C3;
+}
+
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0;
+  width: 42px;
+  height: 32px;
+}
+
+.instagram img {
+  width: 40px;
+  height: 40px;
+}
+
+.instagram:hover {
   box-shadow: 0 2px #FFC2C3;
 }

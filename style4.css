@@ -73,6 +73,7 @@ body {
 
 .poster-container img:hover {
     transform: scale(1.0095);
+    transition: transform 0.3s ease;
     filter: brightness(1.05);
 }
 
