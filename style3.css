@@ -1,6 +1,6 @@
 body {
     background-color: #000000;
-    height: 4830px;
+    height: 4850px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,7 +203,7 @@ body {
 }
 
 .section-twelve .content8 p {
-    color: #ffffff ;
+  color: #ffffff ;
   font-size: medium;
   line-height: 1.5;
 }
