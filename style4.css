@@ -1,6 +1,5 @@
 body {
     background-color: #000000;
-    height: 2995px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +7,6 @@ body {
 }
 
 .section-one{
-    height: 400px;
     background-color: #0e0000;
     display: flex;
     flex-direction: column;
@@ -23,7 +21,7 @@ body {
  }
 
  .paragraph-container{
-    padding: 0 140px;
+    padding: 0 20%;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -61,7 +59,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%; 
+    min-width: 50%; 
 }
 
 .poster-container img {

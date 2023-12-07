@@ -1,10 +1,15 @@
-body { margin: 0; padding: 0; background-color: #0E0301; }
+body {
+margin: 0;
+padding: 0;
+background-color: #0E0301;
+}
+
 header {
  background-color: rgba(217, 50, 21, 0.746);
- height: 110px;
+ min-height: 105px;
  width: 100%;
  position: fixed;
-  top: 0;
+ top: 0;
  z-index: 999;
 }
 
@@ -21,7 +26,6 @@ h1 {
 .container-navigation {
   list-style-type: square;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   cursor: e-resize;
@@ -54,7 +58,7 @@ h1 {
 
 .section-one {
  margin-top: 110px;
- height: 300px;
+ min-height: 300px;
  background-image: url("background1.jpeg");
  background-repeat: no-repeat;
  background-size: cover;
@@ -87,29 +91,32 @@ p {
 }
 
 .section-two {
- background-color: #fe7773;
- height: 390px;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-wrap: wrap;
+  background-color: #fe7773;
+  max-height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px; 
 }
 
 .section-two .img:hover {
-  transform: scale(1.05); 
-  transition: transform 0.3s ease; 
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
-
 
 .section-two img {
- margin: 0 10px;
- margin-bottom: 8px;
- width: 250px;
- border: 1px solid #ffffff;
- border-radius: 10px;
- box-shadow: 3px 5px 5px rgba(186, 6, 6, 0.754);
- cursor: zoom-in;
+  margin: 0 2%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%; 
+  max-width: 250px; 
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(186, 6, 6, 0.754);
+  cursor: zoom-in;
 }
+
 
 .section-three {
  background-color:#fe7773;
@@ -143,11 +150,11 @@ p {
 
 .section-four{
   background-color: #fe7773;
-  height: 2200px;
+  min-height: 2200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 200px 200px;
+  padding: 0 20% 20%;
 }
 
 .section-four p{
@@ -156,8 +163,8 @@ p {
   color: #0E0301;
   text-align: center;
   line-height: 1.58;
-  margin-top: 25px;
-  padding: 0 240px;
+  margin-top: 5%;
+  padding: 0 20%;
   border: 1px dashed black;
 }
 
@@ -168,6 +175,7 @@ h3{
   font-weight: 300;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 .section-four img{
   display: flex;
@@ -502,7 +510,7 @@ h3{
 }
 
 .section-sixteen {
-  display: block;
+  max-height: 300px;
 }
 
 .section-sixteen .image-section {
@@ -510,8 +518,8 @@ h3{
 }
 
 .section-sixteen .image-section img {
-  display: block;
   width: 100%;
+  min-width: auto;
   height: auto;
 }
 
@@ -527,6 +535,7 @@ h3{
   align-items: center;
   text-align: center;
   color: #ffffff;
+  flex: 1;
 }
 
 .section-sixteen .title {
