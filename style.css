@@ -59,7 +59,7 @@ h1 {
 .section-one {
  margin-top: 110px;
  min-height: 300px;
- background-image: url("background1.jpeg");
+ background-image: url("image og background/background1.jpeg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -127,7 +127,7 @@ p {
  justify-content: center;
  align-items: center;
 
- background-image: url("background2.jpeg");
+ background-image: url("image og background/background2.jpeg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -459,16 +459,14 @@ h3{
 
 .section-fifthteen {
   display: flex;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .box1 {
-  flex: 1;
+  flex: 1 1;
   background-color: #fe7773;
-  height: 100%;
   display: flex;
   flex-direction: column;
-
   align-items: center; 
 }
 
@@ -500,12 +498,10 @@ h3{
 }
 
 .box2 {
-  flex: 1;
+  flex: 1 1;
   background-color: #FFC2C3;
-  height: 100%;
   display: flex;
   flex-direction: column;
-
   align-items: center; 
 }
 
@@ -535,7 +531,7 @@ h3{
   align-items: center;
   text-align: center;
   color: #ffffff;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .section-sixteen .title {

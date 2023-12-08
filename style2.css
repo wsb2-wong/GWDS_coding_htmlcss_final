@@ -35,7 +35,7 @@ body img {
   margin-top: 0;
 }
 
-img[src="little star.png"]:hover {
+img[src="other image/little star.png"]:hover {
   transform: scale(1.10);
   transition: transform 0.3s ease;
 }
