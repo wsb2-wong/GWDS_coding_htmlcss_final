@@ -2,11 +2,11 @@ body {
     margin: 30px;
     padding: 30px;
     background-color: lightpink;
+    border: 9px dotted lightseagreen;
 }
 
 .section-one {
-    border: 1px solid rgb(191, 214, 237);
-    background-color: lightslategrey;
+    background-color: rgb(130, 149, 171);
 }
 
 .container {
@@ -19,18 +19,26 @@ body {
 
 .caption {
     font-size: 15px;
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    line-height: 1.5;
 }
 
 .jpeg {
     width: 100%; /* Use 100% width for responsiveness */
     height: auto; /* Maintain aspect ratio */
-    max-width: 400px; /* Limit the maximum width */
-    padding: 4px;
+    max-width: 450px; /* Limit the maximum width */
+    padding: 5px;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.worksheet-group img:hover {
+    transform: scale(1.0095);
+    transition: transform 0.3s ease;
+    filter: brightness(1.05);
 }
 
 .worksheet-group {
-    width: 400px; /* Set a fixed width for consistency */
+    width: 450px; /* Set a fixed width for consistency */
     margin-bottom: 20px;
 }
