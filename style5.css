@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -25,6 +24,7 @@ body {
 }
 
 .jpeg {
+    margin-top: 20px;
     width: 100%; /* Use 100% width for responsiveness */
     height: auto; /* Maintain aspect ratio */
     max-width: 450px; /* Limit the maximum width */
@@ -42,3 +42,22 @@ body {
     width: 450px; /* Set a fixed width for consistency */
     margin-bottom: 20px;
 }
+
+
+.back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: rgb(255, 255, 255);
+}
+
+.back-button:hover {
+    background-color: #b3facb;
+    box-shadow: 0 2px #FFC2C3;
+    transform: translateY(2px);
+}
+
