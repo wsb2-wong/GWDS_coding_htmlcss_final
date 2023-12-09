@@ -30,6 +30,7 @@ body {
   width: 40%;
   height: auto;
   transition: filter 0.3s;
+  cursor: grab;
 }
 
 .one img:hover {
@@ -69,6 +70,7 @@ body {
 
 .two img:hover {
   filter: brightness(1.19);
+  cursor: grab;
 }
 
 
