@@ -15,8 +15,10 @@ body {
 }
 
  h1{
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: medium;
+    font-family: "kaushan-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
     color: #b3facb;
  }
 
@@ -32,6 +34,7 @@ body {
 .paragraph-container p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
+    font-weight: 800;
     color: #b3facb;
     text-align: center;
 }
@@ -66,13 +69,13 @@ body {
     max-width: 70%;
     max-height: 70%;
     transition: filter 0.8s;
-    box-shadow: 8px 10px 10px rgba(212, 31, 31, 0.469);
 }
 
 .poster-container img:hover {
     transform: scale(1.0095);
     transition: transform 0.3s ease;
     filter: brightness(1.05);
+    box-shadow: 5px 5px rgba(187, 27, 64, 0.627);
 }
 
 .poster-reflection-container {
@@ -99,6 +102,7 @@ body {
     border-radius: 10px;
     text-decoration: none;
     padding: 12px 22px;
+    margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
 }
 

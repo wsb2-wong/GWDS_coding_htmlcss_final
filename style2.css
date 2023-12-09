@@ -7,8 +7,11 @@ body {
 }
 
 h3 {
-  font-size: xx-large;
-  letter-spacing: 1cm;
+  font-family: "kaushan-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 0.3cm;
   color: #fe7773;
   font-weight: 300;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -21,6 +24,7 @@ h3 {
 body p {
   font-style: italic;
   font-size: larger;
+  font-weight: 900;
   color: #FFC2C3;
   text-align: center;
   line-height: 1.58;
@@ -48,6 +52,7 @@ img[src="other image/little star.png"]:hover {
   border-radius: 10px;
   text-decoration: none;
   padding: 12px 22px;
+  margin-bottom: 20px;
   background-color: rgb(255, 255, 255);
 }
 
