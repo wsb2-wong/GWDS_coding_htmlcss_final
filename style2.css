@@ -18,7 +18,7 @@ h3 {
 }
 
 .text-container {
-  padding: 0 10%; /* Adjust the padding percentage as needed */
+  padding: 0 15%; /* Adjust the padding percentage as needed */
 }
 
 body p {
@@ -29,6 +29,7 @@ body p {
   text-align: center;
   line-height: 1.58;
   margin-top: 25px;
+  line-height: 1.8;
 }
 
 body img {

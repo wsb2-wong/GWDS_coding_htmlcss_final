@@ -30,6 +30,7 @@ body {
     max-width: 450px; /* Limit the maximum width */
     padding: 5px;
     box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .worksheet-group img:hover {
