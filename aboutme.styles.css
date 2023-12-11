@@ -45,51 +45,103 @@ body{
  text-shadow: 2px 2px 1px #ffffff;
 }
 
-
-.contact{
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   background-color:#7e685a;
-   min-height: 60px;
-  }
-  
-  .email {
-    font-size: 25px;
-    border:1px solid  #fff;
-    border-radius: 10px;
-    text-decoration: none;
-    padding:0 8px 2px;
-    width: 28px;
-    height: 30px;
-    cursor: pointer;
-    margin: 0 6px;
-  }
-  
-  .email:hover {
-    box-shadow: 2px 4px 1px rgba(22, 50, 13, 0.805);
-  }
-  
-  
-  .instagram {
+  .section-two{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: #c2cad0;
+  }
+
+  .section-two p{
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: "BUBL" 100;
     font-size: 40px;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 0;
-    width: 42px;
-    height: 32px;
-    cursor: pointer;
+    color: #5a4c43;
+    text-align: auto;
+  }
+
+  .section-three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c2cad0;
   }
   
-  .instagram img {
-    width: 40px;
-    height: 50px;
+  .img {
+    margin: 30px;
+    width: 30%;
+    margin-left: 130px;
   }
   
-  .instagram:hover {
-    box-shadow:2px 4px 1px rgba(22, 50, 13, 0.805);
+  .img img {
+    max-width: 70%;
+    max-height: 70%;
+    border: 5px solid #fff;
   }
+
+  .img img:hover{
+  transform: scale(1.0095);
+  transition: transform 0.3s ease;
+  filter: brightness(1.05);
+  box-shadow: 5px 5px rgba(60, 24, 34, 0.737);
+  }
+
+  .title{
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: "BUBL" 100;
+    color: #5a4c43;
+    text-align: auto;
+    font-size: 20px;
+  }
+  
+
+
+  .contact{
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#7e685a;
+    min-height: 60px;
+   }
+   
+   .email {
+     font-size: 25px;
+     border:1px solid  #fff;
+     border-radius: 10px;
+     text-decoration: none;
+     padding:0 8px 2px;
+     width: 28px;
+     height: 30px;
+     cursor: pointer;
+     margin: 0 6px;
+   }
+   
+   .email:hover {
+     box-shadow: 2px 4px 1px rgba(22, 50, 13, 0.805);
+   }
+   
+   
+   .instagram {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 40px;
+     border: 1px solid #fff;
+     border-radius: 10px;
+     text-decoration: none;
+     padding: 0;
+     width: 42px;
+     height: 32px;
+     cursor: pointer;
+   }
+   
+   .instagram img {
+     width: 40px;
+     height: 50px;
+   }
+   
+   .instagram:hover {
+     box-shadow:2px 4px 1px rgba(22, 50, 13, 0.805);
+   }
+ 
