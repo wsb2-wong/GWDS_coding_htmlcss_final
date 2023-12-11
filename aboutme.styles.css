@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #afd275;
+}
+
+.selfie{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bighead {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 300px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+.selfie img:hover {
+    transform: scale(1.0095);
+    transition: transform 1.6s ease;
+    filter: brightness(1.05);
+    box-shadow: 10px 10px 10px rgba(22, 50, 13, 0.805);
+    cursor: grab;
+}
+
+.section-one{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed  #7e685a;
+    margin: 3% 10%;
+}
+
+.section-one p{
+ font-family: "bd-caramel-variable", sans-serif;
+ font-variation-settings: "BUBL" 100;
+ line-height: 1.6;
+ font-size: 25px;
+ color: #7e685a;
+ text-align: center;
+ padding:0 20%;
+ text-shadow: 2px 2px 1px #ffffff;
+}
+
+
+.contact{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   background-color:#7e685a;
+   min-height: 60px;
+  }
+  
+  .email {
+    font-size: 25px;
+    border:1px solid  #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:0 8px 2px;
+    width: 28px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 6px;
+  }
+  
+  .email:hover {
+    box-shadow: 2px 4px 1px rgba(22, 50, 13, 0.805);
+  }
+  
+  
+  .instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0;
+    width: 42px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .instagram img {
+    width: 40px;
+    height: 50px;
+  }
+  
+  .instagram:hover {
+    box-shadow:2px 4px 1px rgba(22, 50, 13, 0.805);
+  }
