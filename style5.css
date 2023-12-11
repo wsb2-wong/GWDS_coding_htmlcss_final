@@ -4,25 +4,21 @@ body {
     background-color: lightpink;
     border: 9px dotted lightseagreen;
 }
-
 .section-one {
     background-color: rgb(130, 149, 171);
 }
-
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;/*on the same asxis*/
     flex-wrap: wrap;
 }
-
 .caption {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     line-height: 1.5;
 }
-
 .jpeg {
     margin-top: 20px;
     width: 100%; /* Use 100% width for responsiveness */
@@ -32,19 +28,15 @@ body {
     box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-
 .worksheet-group img:hover {
     transform: scale(1.0095);
     transition: transform 0.3s ease;
     filter: brightness(1.05);
 }
-
 .worksheet-group {
     width: 450px; /* Set a fixed width for consistency */
     margin-bottom: 20px;
 }
-
-
 .back-button {
     display: flex;
     justify-content: center;
@@ -55,10 +47,8 @@ body {
     padding: 12px 22px;
     background-color: rgb(255, 255, 255);
 }
-
 .back-button:hover {
     background-color: #b3facb;
     box-shadow: 0 2px #FFC2C3;
     transform: translateY(2px);
 }
-
