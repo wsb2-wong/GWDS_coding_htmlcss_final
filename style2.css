@@ -41,7 +41,7 @@ body img {
 }
 
 img[src="other image/little star.png"]:hover {
-  transform: scale(1.10);
+  transform: scale(1.03);
   transition: transform 0.3s ease;
 }
 

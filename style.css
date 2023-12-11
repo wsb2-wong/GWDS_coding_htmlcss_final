@@ -190,6 +190,10 @@ h3{
   width: 10cm;
 }
 
+.section-four img:hover{
+  transform: scale(0.98);
+}
+
 .section-five {
   background-color: #FFC2C3;
   margin-top: 20px;
@@ -395,15 +399,14 @@ h3{
 .section-thirteen {
   background-color: #FFC2C3;
   height: 70px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
-
 
 .research {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1px;
+  padding: 4px;
   border: none;
 }
 
@@ -412,7 +415,6 @@ h3{
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(202, 35, 35, 0.5);
   color: #fff;
-  padding: 10px;
   text-decoration: none;
   cursor: pointer;
   font-weight: 500;
