@@ -1,8 +1,34 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #afd275;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #afd275;
 }
+
+header {
+  position: fixed;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.home-button {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+  font-size: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 8px 15px;
+}
+
+.home-button:hover {
+  background-color: rgba(22, 50, 13, 0.805);
+  box-shadow: 3px 3px #473b3c;
+  transform: translateY(2px);
+  cursor: grab;
+}
+
 
 .selfie{
     display:flex;
